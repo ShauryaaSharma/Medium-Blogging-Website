@@ -1,0 +1,16 @@
+# deps (defense-in-depth; each package also has its own)
+node_modules/
+
+# env files anywhere in the repo
+.env
+.env.local
+.env.production
+.env.*.local
+.dev.vars
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
