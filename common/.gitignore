@@ -1,0 +1,14 @@
+# deps
+node_modules/
+
+# build artifacts (dist/ is committed on purpose — backend and frontend
+# consume it directly via file:../common, and there's no install-time
+# build step wired up to regenerate it)
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+
+# misc
+.DS_Store
