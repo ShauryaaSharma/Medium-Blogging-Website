@@ -44,7 +44,7 @@ cd backend && npm install && npm run dev ( OR npx wrangler dev)      # Worker on
 cd frontend && npm install && npm run dev                            # Vite on localhost:5173
 ```
 
-The backend needs a `.env` with `DIRECT_URL` (Neon Postgres) and Cloudflare `vars` for `DATABASE_URL` (Prisma Accelerate) and `JWT_SECRET` — see `backend/wrangler.jsonc`. The frontend reads the API base URL from `VITE_BACKEND_URL`.
+The backend needs a `.env` with `DIRECT_URL` (Neon Postgres) and Cloudflare `vars` for `DATABASE_URL` (Prisma Accelerate) and `JWT_SECRET`, see `backend/wrangler.jsonc`. The frontend reads the API base URL from `VITE_BACKEND_URL`.
 
 ## Deployment
 
