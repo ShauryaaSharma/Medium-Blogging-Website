@@ -1,6 +1,6 @@
 # Medium Blogging Website
 
-A full-stack Medium clone — write, publish, and read blog posts, with JWT auth and a shared validation layer across the frontend and backend.
+A full-stack Medium clone, write, publish, and read blog posts, with JWT auth and a shared validation layer across the frontend and backend.
 
 **Live:** https://c4050f27.medium-frontend-6zs.pages.dev/
 
